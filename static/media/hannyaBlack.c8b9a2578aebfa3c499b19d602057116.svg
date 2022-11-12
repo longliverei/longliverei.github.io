@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        font-family: Poppins-Thin, Poppins;
+        font-family: Poppins, Poppins;
         font-size: 12px;
         font-weight: 200;
       }
