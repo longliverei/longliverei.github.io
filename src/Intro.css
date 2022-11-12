@@ -1,0 +1,20 @@
+.okami {
+    width: 550px;
+    height: 600px;
+}
+
+.intro-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.intro-title {
+    width: 280px;
+}
+
+.type {
+    font-family: 'Poppins';
+    color: rgb(240, 37, 37);
+}
