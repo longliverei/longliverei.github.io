@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.navbar {
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 350px;
+    height: 50px;
+}
+
+.logo .logo-black {
+    display: none;
+}
+
+.logo:hover .logo-red {
+    display: none;
+}
+
+.logo:hover .logo-black {
+    display: inline;
+}
+
+.nav-head {
+    padding-left: 20px;
+    padding-right: 20px;
+}
