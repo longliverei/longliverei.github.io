@@ -11,10 +11,22 @@
 }
 
 .intro-title {
-    width: 280px;
+    width: 400px;
+    height: 100px;
+}
+
+.intro-title-box {
+    flex-direction: column;
+}
+
+.intro-text {
+    font-size: 2em;
+    width: 500px;
+    font-weight: bold;
+    font-family: 'Poppins';
 }
 
 .type {
     font-family: 'Poppins';
-    color: rgb(240, 37, 37);
+    color: rgb(240, 6, 6);
 }
