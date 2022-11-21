@@ -8,10 +8,11 @@ class Navbar extends React.Component {
         return (
             <header className="navbar">
                 <div className="logo">
-                    <img src={hannya} className="logo-red"></img>
-                    <a href="https://longliverei.github.io/"><img src={hannyaBlack} className="logo-black"></img></a>
+                    <img src={hannya} className="logo-red" alt="hannya-icon"></img>
+                    <a href="https://longliverei.github.io/"><img src={hannyaBlack} className="logo-black" alt="hannya-black-icon"></img></a>
                 </div>
                 <nav>
+                    <a className="nav-head">Home</a>
                     <a className="nav-head">Projetos</a>
                     <a className="nav-head">Sobre</a>
                 </nav>

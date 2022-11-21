@@ -1,30 +1,30 @@
 .okami {
-    width: 550px;
-    height: 600px;
+    width: 100%;
 }
 
 .intro-box {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-}
-
-.intro-title {
-    width: 400px;
-    height: 100px;
+    margin: 80px 15% 80px 15%;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Poppins';
 }
 
 .intro-title-box {
     flex-direction: column;
 }
 
-.intro-text {
-    font-size: 2em;
-    width: 500px;
-    font-weight: bold;
-    font-family: 'Poppins';
+.intro-title {
+    min-height: 105px;
 }
+
+.intro-text {
+    max-width: 600px;
+}
+
 
 .type {
     font-family: 'Poppins';
