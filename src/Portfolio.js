@@ -1,7 +1,9 @@
 import React from 'react';
+import './Portfolio.css';
 import { Navbar } from './Navbar';
 import { Intro } from './Intro';
 import { Line } from './Line';
+import { Skill } from './Skill';
 
 class Portfolio extends React.Component {
     render() {
@@ -10,6 +12,7 @@ class Portfolio extends React.Component {
                 <Navbar />
                 <Intro />
                 <Line color="rgb(240, 6, 6)" />
+                <Skill />
             </div>
         )
     }
