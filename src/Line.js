@@ -6,7 +6,7 @@ const Line = ({ color }) => (
         style={{
             color: color,
             backgroundColor: color,
-            height: 1.2,
+            height: 1,
         }}
     />
 );

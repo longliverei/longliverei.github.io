@@ -1,3 +1,18 @@
 .skill-box {
     margin: 80px 15% 80px 15%;
 }
+
+.skill-logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+span {
+    position: relative;
+}
+
+.mensagem {
+    display: none;
+}
