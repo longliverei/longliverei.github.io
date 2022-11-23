@@ -7,12 +7,21 @@
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
-span {
-    position: relative;
+.skill-text-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.mensagem {
-    display: none;
+.first-row {
+    width: 25%;
+    font-size: 20px;
+}
+
+.second-row {
+    width: 25%;
+    font-size: 20px;
 }

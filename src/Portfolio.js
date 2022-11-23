@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
             <div className="container">
                 <Navbar />
                 <Intro />
-                <Line color="rgb(240, 6, 6)" />
+                <Line color="grey" />
                 <Skill />
             </div>
         )
