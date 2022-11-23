@@ -4,6 +4,7 @@ import { Navbar } from './Navbar';
 import { Intro } from './Intro';
 import { Line } from './Line';
 import { Skill } from './Skill';
+import { Footer } from './Footer';
 
 class Portfolio extends React.Component {
     render() {
@@ -13,6 +14,8 @@ class Portfolio extends React.Component {
                 <Intro />
                 <Line color="grey" />
                 <Skill />
+                <Line color="grey" />
+                <Footer />
             </div>
         )
     }

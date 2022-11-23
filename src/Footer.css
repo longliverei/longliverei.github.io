@@ -1,0 +1,19 @@
+.footer-box {
+    width: 100%;
+    background-color: white;
+}
+
+.footer {
+    margin: 40px 15% 20px 15%;
+}
+
+.footer-opt {
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+
+.opt {
+    padding-right: 30px;
+    color: inherit;
+    text-decoration: none;
+}
