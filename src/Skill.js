@@ -11,11 +11,11 @@ class Skill extends React.Component {
         return (
             <div className="skill-box">
                 <div className="skill-logo">
-                    <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank"><img src={htmlimg} alt="html" width="100px"></img></a>
-                    <a href="https://www.w3schools.com/cssref/index.php" target="_blank"><img src={cssimg} alt="css" width="100px"></img></a>
-                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img src={jsimg} alt="javascript" width="100px"></img></a>
-                    <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="_blank"><img src={reactimg} alt="reactjs"width="100px"></img></a>
-                    <a href="https://nodejs.org/pt-br/docs/" target="_blank"><img src={nodejsimg} alt="nodejs" width="100px"></img></a>
+                    <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" rel="noreferrer"><img src={htmlimg} alt="html" width="100px"></img></a>
+                    <a href="https://www.w3schools.com/cssref/index.php" target="_blank" rel="noreferrer"><img src={cssimg} alt="css" width="100px"></img></a>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src={jsimg} alt="javascript" width="100px"></img></a>
+                    <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="_blank" rel="noreferrer"><img src={reactimg} alt="reactjs"width="100px"></img></a>
+                    <a href="https://nodejs.org/pt-br/docs/" target="_blank" rel="noreferrer"><img src={nodejsimg} alt="nodejs" width="100px"></img></a>
                 </div>
                 <div className="skill-text-box">
                     <div className="first-row">
