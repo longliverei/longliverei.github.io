@@ -1,6 +1,6 @@
 import React from 'react';
 import './Intro.css';
-import okami from './img/okami.png';
+import okami from '../../img/okami.png';
 import { TypeAnimation } from 'react-type-animation';
 
 class Intro extends React.Component {

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Skill.css';
-import htmlimg from './img/html.svg';
-import cssimg from './img/css.svg';
-import jsimg from './img/javascript.svg';
-import reactimg from './img/react.svg';
-import nodejsimg from './img/nodejs.svg';
+import htmlimg from '../../img/html.svg';
+import cssimg from '../../img/css.svg';
+import jsimg from '../../img/javascript.svg';
+import reactimg from '../../img/react.svg';
+import nodejsimg from '../../img/nodejs.svg';
 
 class Skill extends React.Component {
     render () {

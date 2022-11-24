@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Navbar.css';
 import hannya from './img/hannya.svg'
 import hannyaBlack from './img/hannyaBlack.svg'
@@ -10,12 +11,12 @@ class Navbar extends React.Component {
                 <div className="navbar">
                     <div className="logo">
                         <img src={hannya} className="logo-red" alt="hannya-icon"></img>
-                        <a href="https://longliverei.github.io/"><img src={hannyaBlack} className="logo-black" alt="hannya-black-icon"></img></a>
+                        <Link to="/"><img src={hannyaBlack} className="logo-black" alt="hannya-black-icon"></img></Link>
                     </div>
                     <nav>
                         <a className="nav-head">Home</a>
                         <a className="nav-head">Projetos</a>
-                        <a className="nav-head">Sobre</a>
+                        <Link to="/about" className="nav-head">Sobre</Link>
                     </nav>
                 </div>
             </header>

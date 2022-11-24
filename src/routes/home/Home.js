@@ -1,12 +1,13 @@
 import React from 'react';
-import './Portfolio.css';
-import { Navbar } from './Navbar';
+import { Outlet } from 'react-router-dom'
+import './Home.css';
+import { Navbar } from '../../Navbar';
 import { Intro } from './Intro';
-import { Line } from './Line';
+import { Line } from '../../Line';
 import { Skill } from './Skill';
-import { Footer } from './Footer';
+import { Footer } from '../../Footer';
 
-class Portfolio extends React.Component {
+class Home extends React.Component {
     render() {
         return (
             <div className="container">
@@ -16,9 +17,10 @@ class Portfolio extends React.Component {
                 <Skill />
                 <Line color="grey" />
                 <Footer />
+                <Outlet />
             </div>
         )
     }
 }
 
-export { Portfolio };
+export { Home };

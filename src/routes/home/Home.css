@@ -1,0 +1,11 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+}

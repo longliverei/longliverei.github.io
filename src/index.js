@@ -1,22 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
     Route,
 } from "react-router-dom";
-import { Portfolio } from './Portfolio';
+import { Home } from './routes/home/Home';
+import { About } from './routes/about/About';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
-        element: <Portfolio />
+        element: <Home />,
     },
     {
         path: "/about",
-        element: <Portfolio />
+        element: <About />,
     }
-])
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
