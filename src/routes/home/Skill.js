@@ -20,7 +20,7 @@ class Skill extends React.Component {
                 <div className="skill-text-box">
                     <div className="first-row">
                         <h2 className="title">Jornada</h2>
-                        <p>Programador desde 2021, completamente autodidata! Após tempos de estudo finalmente decidi fazer esse site para divulgar meus projetos, caso tenha gostado, por favor, não hesite em entrar em contato comigo e se quiser saber um pouco mais sobre mim, visite a parte "Sobre".</p>
+                        <p>Programador desde 2021, completamente autodidata! Após tempos de estudo finalmente decidi fazer esse site para divulgar meus projetos. Caso tenha gostado, por favor, não hesite em entrar em contato comigo e se quiser saber um pouco mais sobre mim, visite a parte "Sobre".</p>
                     </div>
                     <div className="second-row">
                         <h2 className="skills">Habilidades</h2>
