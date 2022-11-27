@@ -26,6 +26,21 @@ class Text extends React.Component {
                     fiz parte de uma incrível comunidade de desenvolvedores intitulada "42" em um ambiente que promove o trabalho em equipe e o desenvolvimento pessoal
                     numa rotina intensa para estarmos preparados para o mercado de trabalho.
                 </p>
+                <div className="like-box">
+                    <div className="like">
+                        <p className="like-title">O que eu gosto</p>
+                        <li>Jogos</li>
+                        <li>Filmes</li>
+                        <li>Ler códigos</li>
+                        <li>Mangás</li>
+                    </div>
+                    <div className="like">
+                        <p className="like-title">O que estou estudando</p>
+                        <li>NextJs</li>
+                        <li>REST</li>
+                        <li>Japonês</li>
+                    </div>
+                </div>
             </div>
         )
     }
