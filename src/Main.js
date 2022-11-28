@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom'
+import { Link, NavLink, Outlet } from 'react-router-dom'
 import './Main.css';
 import hannya from './img/hannya.svg'
 import hannyaBlack from './img/hannyaBlack.svg'
+
+let activeClassName = "active";
+let inactiveClassName ="nav-head";
 
 class Main extends React.Component {
     render() {
@@ -15,9 +18,9 @@ class Main extends React.Component {
                             <Link to="/"><img src={hannyaBlack} className="logo-black" alt="hannya-black-icon"></img></Link>
                         </div>
                         <nav>
-                            <Link to="/" className="nav-head">Home</Link>
+                            <NavLink to="/" className={({ isActive }) => isActive ? activeClassName : inactiveClassName}>Home</NavLink>
                             <a className="nav-head">Projetos</a>
-                            <Link to="/about" className="nav-head">Sobre</Link>
+                            <NavLink to="/about" className="nav-head">Sobre</NavLink>
                         </nav>
                     </div>
                 </header>

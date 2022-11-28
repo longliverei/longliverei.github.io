@@ -15,15 +15,15 @@ class Text extends React.Component {
                     <br></br>
                     <br></br>
                     Nos meus 11 anos de idade, me descobri um "gamer", adorava passar horas jogando, explorando novos mundos que apenas os jogos podem trazer.
-                    Mas ainda faltava algo crucial para aproveitar a história, na época os jogos eram traduzidos majoritariamente em inglês, uma língua ao qual eu não possuia conhecimento algum,
-                    em prol da minha diversão, peguei um dicionário e o usava enquanto jogava, em 1 ano conseguia ler quase todos os diálogos sem a ajuda do meu dicionário, por consequência aprendi inglês sozinho,
+                    Mas ainda faltava algo crucial para aproveitar a história, na época os jogos eram traduzidos majoritariamente em inglês, uma língua ao qual eu não possuia conhecimento algum.
+                    Em prol da minha diversão, peguei um dicionário e o usava enquanto jogava, em 1 ano conseguia ler quase todos os diálogos sem a ajuda do meu dicionário, por consequência aprendi inglês,
                     descobri minha habilidade autodidata e continuo até hoje me divertindo com jogos.
                     <br></br>
                     <br></br>
                     Deixando a nostalgia de lado, em 2021 comecei a programar no intuito de suprir minha
                     curiosidade, mal sabia eu que acabaria descobrindo um mundo de infinitas possibilidades e conhecimento sem fim.
                     Do primeiro "Hello World." até a criação desse site, me deparei com diversos obstáculos que foram todos superados,
-                    fiz parte de uma incrível comunidade de desenvolvedores intitulada "42" em um ambiente que promove o trabalho em equipe e o desenvolvimento pessoal
+                    fiz parte de uma incrível comunidade de desenvolvedores intitulada "42", em um ambiente que promove o trabalho em equipe e o desenvolvimento pessoal
                     numa rotina intensa para estarmos preparados para o mercado de trabalho.
                 </p>
                 <div className="like-box">
@@ -36,6 +36,7 @@ class Text extends React.Component {
                     </div>
                     <div className="like">
                         <p className="like-title">O que estou estudando</p>
+                        <li>NodeJs</li>
                         <li>NextJs</li>
                         <li>REST</li>
                         <li>Japonês</li>
