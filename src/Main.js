@@ -19,8 +19,9 @@ class Main extends React.Component {
                         </div>
                         <nav>
                             <NavLink to="/" className={({ isActive }) => isActive ? activeClassName : inactiveClassName}>Home</NavLink>
-                            <a className="nav-head">Projetos</a>
+                            <NavLink to="/projects" className="nav-head">Projetos</NavLink>
                             <NavLink to="/about" className="nav-head">Sobre</NavLink>
+                            <NavLink to="/kitties" className="nav-head">Kitties!</NavLink>
                         </nav>
                     </div>
                 </header>

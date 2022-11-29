@@ -8,6 +8,7 @@ import {
 import { Home } from './routes/home/Home';
 import { About } from './routes/about/About';
 import { Main } from './Main';
+import { Project } from './routes/project/Project';
 
 const router = createHashRouter([
     {
@@ -21,6 +22,10 @@ const router = createHashRouter([
             {
                 path: "/about",
                 element: <About />,
+            },
+            {
+                path: "/projects",
+                element: <Project />
             }
         ]
     },
