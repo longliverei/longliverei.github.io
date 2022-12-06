@@ -26,7 +26,7 @@ const router = createHashRouter([
             {
                 path: "/projects",
                 element: <Project />
-            }
+            },
         ]
     },
 ]);

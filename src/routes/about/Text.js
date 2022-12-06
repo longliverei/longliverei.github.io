@@ -29,17 +29,17 @@ class Text extends React.Component {
                 <div className="like-box">
                     <div className="like">
                         <p className="like-title">O que eu gosto</p>
-                        <li>Jogos</li>
-                        <li>Filmes</li>
-                        <li>Ler códigos</li>
-                        <li>Mangás</li>
+                        <li className="like-text">Jogos</li>
+                        <li className="like-text">Filmes</li>
+                        <li className="like-text">Ler códigos</li>
+                        <li className="like-text">Mangás</li>
                     </div>
                     <div className="like">
                         <p className="like-title">O que estou estudando</p>
-                        <li>NodeJs</li>
-                        <li>NextJs</li>
-                        <li>REST</li>
-                        <li>Japonês</li>
+                        <li className="like-text">NodeJs</li>
+                        <li className="like-text">NextJs</li>
+                        <li className="like-text">REST</li>
+                        <li className="like-text">Japonês</li>
                     </div>
                 </div>
             </div>

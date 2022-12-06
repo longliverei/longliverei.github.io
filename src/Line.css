@@ -1,3 +1,10 @@
 hr {
     margin: 0 15% 0 15%;
+    width: 70%;
+}
+
+@media (max-width: 500px) {
+    hr {
+        width: 100%;
+    }
 }

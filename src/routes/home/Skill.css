@@ -25,3 +25,18 @@
     width: 35%;
     font-size: 20px;
 }
+
+@media (max-width: 700px) {
+    .skill-text-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-row, .second-row{
+        width: 100%;
+    }
+
+    .first-row {
+        margin-bottom: 30px;
+    }
+}
