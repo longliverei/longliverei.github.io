@@ -7,8 +7,12 @@
     margin: 20px 15% 20px 15%;
 }
 
+.contact-title {
+    font-size: 2em;
+}
+
 .footer-opt {
-    font-size: 1.3em;
+    font-size: 2em;
     padding-top: 20px;
 }
 
