@@ -13,8 +13,10 @@ CSS
 Reactjs 
 
 ## Agradecimentos
-A maravilhosa documentação do ReactJS e do React-router.
+A maravilhosa documentação do [ReactJS](https://reactjs.org/) e do [React-router](https://reactrouter.com/en/main).
 <br>
-École 42 por me introduzir devidamente ao mundo da programação.
+[École 42](https://www.42sp.org.br/) por me introduzir devidamente ao mundo da programação.
+<br>
+Ao Github por disponibilizar o [GH Pages](https://pages.github.com/)
 <br>
 A todos que tiraram um tempo para ver meu site! 
